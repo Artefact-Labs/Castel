@@ -1,0 +1,13 @@
+Data counter = 0 
+Method goRight () { 
+	this.player.setVelocityX(100); 
+}
+Method goLeft () { 
+	this.player.setVelocityX(-100); 
+}
+	
+Method goUp () { 
+	if(this.player.body.touching.down){
+		this.player.setVelocityY(-600);
+	}
+}

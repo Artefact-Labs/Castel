@@ -1,0 +1,5 @@
+Data panelVisible = true
+	
+Method togelPanel(){
+	this.panelVisible = !this.panelVisible
+}

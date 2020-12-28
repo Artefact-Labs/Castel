@@ -1,0 +1,259 @@
+
+Scene{
+  id: "scene1",
+  width: 100,
+  height: 100,
+  x: 0,
+  y: 0,
+  child: [
+    Row{
+      id: "rowscene124",
+      width: 895,
+      height: 463,
+      x: 0,
+      y: 100,
+      child: [
+        Image{
+          id: "imagescene123",
+          width: 895,
+          height: 463,
+          x: 0,
+          source: "Resources/background.png",
+          top: 0,
+          bottom: 0,
+          modelFor: "5"
+        }
+      ],
+      top: 0,
+      bottom: 0
+    },
+    StaticGroup{
+      id: "group1",
+      width: 100,
+      height: 100,
+      x: 0,
+      y: 0,
+      child: [
+        Row{
+          id: "rowgroup16",
+          width: 425,
+          height: 41,
+          x: 83,
+          y: 293,
+          child: [
+            Image{
+              id: "ground12",
+              width: 97,
+              height: 44,
+              x: 0,
+              source: "Resources/04.png",
+              modelFor: "5",
+              bottom: 0
+            }
+          ]
+        },
+        Image{
+          id: "box",
+          width: 100,
+          height: 100,
+          x: 136,
+          y: 101,
+          source: "Resources/box2.png"
+        },
+        Image{
+          id: "ground123",
+          width: 97,
+          height: 44,
+          x: 582,
+          source: "Resources/04.png",
+          y: 176
+        },
+        Row{
+          id: "rowgroup164",
+          width: 575,
+          height: 46,
+          x: 687,
+          y: 263,
+          child: [
+            Image{
+              id: "ground12",
+              width: 97,
+              height: 44,
+              x: 0,
+              source: "Resources/04.png",
+              modelFor: "5",
+              bottom: 0
+            }
+          ]
+        },
+        Image{
+          id: "ground1235",
+          width: 97,
+          height: 44,
+          x: 348,
+          source: "Resources/04.png",
+          y: 115
+        },
+        Row{
+          id: "rowgroup1646",
+          width: 575,
+          height: 46,
+          x: 1000,
+          y: 150,
+          child: [
+            Image{
+              id: "ground12",
+              width: 200,
+              height: 60,
+              x: 0,
+              source: "Resources/plate2.png",
+              modelFor: "5",
+              bottom: 0
+            }
+          ]
+        }
+      ]
+    },
+    Image{
+      id: "tree",
+      width: 100,
+      height: 100,
+      x: 72,
+      source: "Resources/tree1.png",
+      y: 190
+    },
+    Sprite{
+      id: "sprites",
+      x: 0,
+      y: 0,
+      source: "Resources/hero1.png",
+      frameWidth: 71,
+      frameHeight: 97,
+      animations: [
+        AnimationItem{
+          key: "stay",
+          frameStart: 8,
+          frameEnd: 10,
+          frameRate: 8,
+          repeat: 1,
+          loop: true
+        },
+        AnimationItem{
+          key: "walk",
+          frameStart: 5,
+          frameEnd: 9,
+          frameRate: 10,
+          repeat: 10,
+          loop: true
+        }
+      ],
+      play: "stay"
+    },
+    Image{
+      id: "tree6",
+      width: 100,
+      height: 100,
+      x: 581,
+      source: "Resources/tree2.png",
+      y: 75
+    },
+    Image{
+      id: "tree67",
+      width: 100,
+      height: 175,
+      x: 348,
+      source: "Resources/stairs.png",
+      y: 117
+    },
+    Image{
+      id: "tree678",
+      width: 43,
+      height: 37,
+      x: 371,
+      source: "Resources/crystal.png",
+      y: 10,
+      physic: "dynamic",
+      gravityY: 300,
+      collisionList: [
+        "group1"
+      ]
+    },
+    Image{
+      id: "tree6789",
+      width: 43,
+      height: 37,
+      x: 173,
+      source: "Resources/coin.png",
+      y: 61,
+      physic: "dynamic",
+      gravityY: 300,
+      collisionList: [
+        "group1"
+      ]
+    },
+    Image{
+      id: "tree678910",
+      width: 135,
+      height: 157,
+      x: 451,
+      source: "Resources/scarecrow.png",
+      y: 134,
+      physic: "dynamic",
+      gravityY: 300,
+      collisionList: [
+        "group1",
+        "player"
+      ]
+    },
+    Image{
+      id: "tree678911",
+      width: 111.07567567567548,
+      height: 126,
+      x: 1036.9243243243245,
+      source: "Resources/door.png",
+      y: 8,
+      physic: "dynamic",
+      gravityY: 300
+    },
+    Image{
+      id: "tree67812",
+      width: 43,
+      height: 37,
+      x: 323,
+      source: "Resources/crystal.png",
+      y: 34,
+      physic: "dynamic",
+      gravityY: 300,
+      collisionList: [
+        "group1"
+      ]
+    },
+    Image{
+      id: "player",
+      width: 76,
+      height: 88,
+      x: 87,
+      source: "Resources/pers9.png",
+      physic: "dynamic",
+      gravity: 300,
+      gravityY: 300,
+      collideWorldBounds: false,
+      collisionList: [
+        "group1"
+      ],
+      y: 0,
+      setBounceX: 0.2,
+      setBounceY: 0.2
+    }
+  ],
+  onUPisDown: [
+    "goUp"
+  ],
+  onLEFTisDown: [
+    "goLeft"
+  ],
+  onRIGHTisDown: [
+    "goRight"
+  ],
+  startFollow: "player"
+},

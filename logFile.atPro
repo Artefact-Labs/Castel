@@ -1,0 +1,584 @@
+{
+ "type": "folder",
+ "pjType": "game",
+ "name": "castelGame",
+ "iconA": "folderA",
+ "version": "0.0.1",
+ "description": "Artefact-Labs",
+ "author": "Dannick Stark",
+ "productName": "",
+ "appId": "com.castel.game",
+ "target": "",
+ "allowToChangeInstallationDirectory": "",
+ "oneClick": "",
+ "mac": {
+  "icon": ""
+ },
+ "win": {
+  "icon": ""
+ },
+ "linux": {
+  "icon": ""
+ },
+ "child": [
+  {
+   "type": "folder",
+   "name": "At",
+   "iconA": "folderB",
+   "col": "#F9B31E",
+   "child": [
+    {
+     "type": "folder",
+     "name": "Scene",
+     "iconA": "folderC",
+     "col": "#F9B31E",
+     "child": [
+      {
+       "type": "file",
+       "name": "Scene1.game.at",
+       "iconA": "at"
+      },
+      {
+       "type": "file",
+       "name": "Scene2.game.at",
+       "iconA": "at"
+      }
+     ]
+    },
+    {
+     "type": "file",
+     "name": "main.at",
+     "iconA": "at"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Js",
+   "iconA": "folderB",
+   "child": [
+    {
+     "type": "file",
+     "name": "main.js",
+     "iconA": "js"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Resources",
+   "iconA": "folderC",
+   "col": "pink",
+   "child": [
+    {
+     "type": "file",
+     "name": "b71.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "groond.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "hero1.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "pers9.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "background.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "blade.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "box1.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "box2.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "bush1.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "bush2.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "button.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "cell.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "coin.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "crystal.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "door.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "flower1.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "flower2.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "flower3.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "flower4.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "flower5.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "heart.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "key.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "lever.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "plate1.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "plate2.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "pointer.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "scarecrow.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "stairs.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "star.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "thorns1.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "thorns2.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "tree1.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "tree2.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "01.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "02.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "03.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "04.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "05.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "06.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "07.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "08.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "09.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "10.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "11.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "12.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "13.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "14.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "15.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "16.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "17.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "18.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "19.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "20.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "21.png",
+     "iconA": "png"
+    },
+    {
+     "type": "file",
+     "name": "22.png",
+     "iconA": "png"
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Structure",
+   "iconA": "folderD",
+   "col": "green",
+   "deco": "pjStruc",
+   "child": [
+    {
+     "type": "file",
+     "name": "Router.art",
+     "child": []
+    },
+    {
+     "type": "file",
+     "name": "Adder.aat",
+     "child": []
+    }
+   ]
+  },
+  {
+   "type": "folder",
+   "name": "Version",
+   "iconA": "folderD",
+   "deco": "version",
+   "child": [
+    {
+     "type": "folder",
+     "name": "Windows",
+     "iconA": "folderE",
+     "deco": "windowsOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Ubuntu",
+     "iconA": "folderE",
+     "deco": "ubuntuOs",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "MacOs",
+     "iconA": "folderE",
+     "deco": "appelOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Android",
+     "iconA": "folderE",
+     "deco": "androidOS",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "i-Phone",
+     "iconA": "folderE",
+     "deco": "ios",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Windows-Phone",
+     "iconA": "folderE",
+     "deco": "windowsPhone",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    },
+    {
+     "type": "folder",
+     "name": "Web",
+     "iconA": "folderE",
+     "deco": "browser",
+     "child": [
+      {
+       "type": "folder",
+       "name": "At",
+       "iconA": "folderB",
+       "col": "#F9B31E",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Js",
+       "iconA": "folderB",
+       "child": []
+      },
+      {
+       "type": "folder",
+       "name": "Style",
+       "iconA": "folderB",
+       "child": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "designState": {
+  "Scene1_at": {
+   "height": 431
+  },
+  "main_at": {
+   "height": 431
+  },
+  "Scene2_at": {
+   "height": 431
+  },
+  "main_game.at": {
+   "height": 431
+  },
+  "Scene1_game.at": {
+   "height": 463
+  }
+ }
+}
